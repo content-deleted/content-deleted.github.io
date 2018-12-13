@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title> content-deleted </title>
   </head>
@@ -35,16 +35,45 @@
             </div>
         </nav>
         <main role="main" class="container">
-                <style>
-                        body {background-color: rgb(49, 42, 49);}
-                        h1   {color: rgb(221, 209, 220);}
-                        p    {color: rgb(233, 218, 230);}
-                </style>
-            <div class ="pt-5"> 
-                <h1>Here's where projects go</h1>
-                <p class="lead"> 
-                </p>
-            </div>
+            <style>
+                body {background-color: rgb(49, 42, 49);}
+                h1   {color: rgb(221, 209, 220);}
+                h5   {color: rgb(245, 229, 243);}
+                div    {color: rgb(233, 218, 230);}
+                .rounded {background-color: rgb(112, 77, 112);}
+                .media {background-color: rgb(112, 77, 112);}
+                .btn {background-color: rgb(59, 54, 59);}
+            </style>
+
+            <ul class="list-unstyled">
+                <h1 class="pt-3 pb-3">Current Projects</h1>
+                <li class="media rounded border border-dark">
+                    <img src="./img/resuma.png" class="mr-3 rounded" alt="cute slime" width="160" height="160"> 
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Rezuma</h5>
+                        <P>A small gameboy platfomer I started working on over the summer. You play as a cute slime. A solo project written in C using the gbdk libraries and compiler. I use gbtd to work on the art.</P>
+                        <a href="https://github.com/content-deleted/rezuma" class="btn btn-info" role="button">Project Info</a>
+                    </div>
+                </li>
+                <div class="pt-5"></div>
+                <h1 class="pt-3 pb-3">Past Projects</h1>
+                <li class="media rounded border border-dark">
+                    <img src="./img/taxi.png" class="mr-3 rounded" alt="TAXI3D" width="160" height="160"> 
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">TAXI-3D</h5>
+                        <P>Semester game project for CPI 211: Game Development Spring 2018 made in Unity with C#. </P>
+                    </div>
+                </li>
+                <div class="pt-5"></div>
+                <li class="media rounded border border-dark">
+                    <img src="./img/comic.png" class="mr-3 rounded" alt="THE CURSE OF MCCLOUD" width="160" height="160"> 
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Curse of McClound Interactive WebComic</h5>
+                        <P>An interactive webcomic made as a final project for HON 394 Spring 2018 in Unity with C#. The story was written by Joseph Aieta and the art was drawn by Meredith Metz.</P>
+                        <a href="./webcomic" class="btn btn-info" role="button">View Comic</a>
+                    </div>
+                </li>
+            </ul>
         </main>
   </body>
 </html>
