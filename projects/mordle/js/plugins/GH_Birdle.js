@@ -352,6 +352,8 @@ Sprite_TileManager.prototype.initialize = function (flipped_img, img, key_img) {
 
     this._answer = Sprite_TileManager.getWordOfTheDay().toUpperCase();
 
+    this.Letters = this._answer.length;
+
     for (let i = 0; i < this.MaxGuesses; i++) {
         this._rows[i] = [];
         for (let j = 0; j < this.Letters; j++) {
@@ -788,9 +790,16 @@ Sprite_TileManager.words = [ "",
     "loves",
     "taxes",
     "hikes",
-    "music",
     "doggy",
-    "trail",
-    "views", // sunday 5/15
+    "sunshine",
+    "katherine",
+    "college", // sunday 5/15
+    "graduation",
+    "music",
+    "family",
+    "abounds",
+    "jacksonbrown",
     "",
+    "", //sunday 5/27
+    ""
     ].map(x => x.toUpperCase());
