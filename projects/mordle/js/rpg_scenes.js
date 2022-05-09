@@ -396,7 +396,7 @@ Scene_Boot.prototype.start = function() {
     SoundManager.preloadImportantSounds();
     SceneManager.goto(Scene_Birdle);
     
-    this.updateDocumentTitle();
+    //this.updateDocumentTitle();
 };
 
 Scene_Boot.prototype.updateDocumentTitle = function() {
