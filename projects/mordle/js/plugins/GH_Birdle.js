@@ -800,6 +800,20 @@ Sprite_TileManager.words = [ "",
     "abounds",
     "jacksonbrown",
     "",
-    "", //sunday 5/27
-    ""
+    "kale", //sunday 5/22
+    "travel",
+    "twins",
+    "desert",
+    "lovely",
+    "icecream",
+    "baking",
+    "costco", // sunday 5/29
+    "grandcanyon",
+    "trail",
+    "parks",
+    "tamales",
+    "aravaipa",
+    "spicy",
+    "redhead", // sunday 6/5
+    "",
     ].map(x => x.toUpperCase());
