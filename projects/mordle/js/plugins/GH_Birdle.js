@@ -822,5 +822,11 @@ Sprite_TileManager.words = [ "",
     "summer",
     "beach",
     "eegees", // sunday 6/12
-    ""
+    "france",
+    "adventure",
+    "sisters",
+    "colorado",
+    "arizona",
+    "vista",
+    "billyjoel", // sunday 6/19
     ].map(x => x.toUpperCase());
