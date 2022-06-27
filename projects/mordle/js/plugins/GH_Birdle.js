@@ -835,5 +835,12 @@ Sprite_TileManager.words = [ "",
     "kindness",
     "piano",
     "flower",
-    "dogs" // sunday 6/26
+    "dogs", // sunday 6/26
+    "bedazzlement",
+    "lexicography",
+    "misjudgement",
+    "perplexingly",
+    "fragmentized",
+    "zoologically",
+    "magniloquent"// sunday 7/3
     ].map(x => x.toUpperCase());
