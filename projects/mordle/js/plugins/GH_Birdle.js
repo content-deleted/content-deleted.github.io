@@ -842,5 +842,20 @@ Sprite_TileManager.words = [ "",
     "perplexingly",
     "fragmentized",
     "zoologically",
-    "magniloquent"// sunday 7/3
+    "magniloquent", // sunday 7/3
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "", // sunday 7/10
+    "",
+    "",
+    "",
+    "",
+    "health",
+    "medicine",
+    "nutrition", //sunday 7/17
+    ""
     ].map(x => x.toUpperCase());
