@@ -656,7 +656,7 @@ Sprite_TileManager.getWordOfTheDay = function() {
     var day = Math.floor(diff / oneDay);
 
     let word = Sprite_TileManager.words[day - 1];
-    return word;
+    return word || "mother";
 }
 
 Sprite_TileManager.words = [ "",
